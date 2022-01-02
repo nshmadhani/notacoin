@@ -1,0 +1,35 @@
+
+
+
+=========PRESENT DO=========
+DONE: Send the New Block Once Mined
+DONE: Wallet is now a node, But never a peer {Cherck this pls } 
+
+DONE: Mempool is Crashing due to Nil Reference
+
+TODO: Utxo Update is not working
+
+
+==========DOING=========
+
+TODO: Add Explorer to the System
+    SUBT: test multiple nodes and conncet to different nodes
+
+
+
+
+=========FUTURE========
+
+TODO: Dockerize the Node?
+TODO: Why did the CHain pointer, change everything, why were there two copies of Tip
+TODO: Build up a Command History, ONce the Node starts
+
+
+
+
+
+
+=====SOLVED======
+SOLVED: Two different Genesis Blocks?
+    ANS: I must have changed something with the Gensis Block (Hardcoding i did for it) after creating the first DB Fiile
+TODO: Adding Peer Discovery
