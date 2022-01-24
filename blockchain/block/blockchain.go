@@ -151,6 +151,7 @@ func CreateBlockchain(dbfile string) *Blockchain {
 		}
 		cbTx := NewCoinBaseTx("M28juHW58uH7K18bZPES8NzyjaFjSAPeRP", "Video Killed the Radio Star", 0)
 
+		fmt.Println("Coinnase Tx")
 		fmt.Println(cbTx)
 
 		gen := GenesisBlock(cbTx)

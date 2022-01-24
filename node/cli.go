@@ -6,6 +6,9 @@ package main
 // 	"math"
 
 // 	cli "github.com/urfave/cli/v2"
+// 	. "nshmadhani.com/notcoin/blockchain/block"
+// 	. "nshmadhani.com/notcoin/blockchain/tx"
+// 	. "nshmadhani.com/notcoin/blockchain/util"
 // )
 
 // type CLI struct {
@@ -57,7 +60,7 @@ package main
 // 				Action: func(c *cli.Context) error {
 
 // 					address := c.String("address")
-// 					balance := GetBalance(NewBlockchain(), address)
+// 					balance := GetBalance(NewBlockchain(""), address)
 // 					fmt.Printf("Balance of %s is %d\n", address, balance)
 // 					return nil
 // 				},

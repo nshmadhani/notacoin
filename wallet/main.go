@@ -16,7 +16,6 @@ var Manager *WalletManager
 func main() {
 
 	InitShell()
-
 	grumble.Main(App)
 
 }
